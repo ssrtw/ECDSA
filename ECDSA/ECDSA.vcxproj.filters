@@ -18,5 +18,43 @@
     <ClCompile Include="ECDSA.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
+    <ClCompile Include="bigint\BigInteger.cc">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint\BigIntegerAlgorithms.cc">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint\BigIntegerUtils.cc">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint\BigUnsigned.cc">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+    <ClCompile Include="bigint\BigUnsignedInABase.cc">
+      <Filter>標頭檔</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bigint\BigUnsignedInABase.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bigint\BigUnsigned.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bigint\BigIntegerUtils.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bigint\BigIntegerLibrary.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bigint\BigIntegerAlgorithms.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bigint\BigInteger.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="bigint\NumberlikeArray.hh">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
